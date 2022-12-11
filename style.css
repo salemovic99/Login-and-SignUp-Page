@@ -1,0 +1,141 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  float: left;
+  background: rgba(215, 247, 255, 0.884);
+  width: 45%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pic-container {
+  float: right;
+  height: 99vh;
+  width: 55%;
+  background-image: url("../../../Icons/17.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+form {
+  border: 2px solid white;
+  border-top: 20px solid white;
+  margin-top: 20px;
+  width: 56%;
+  height: 65vh;
+  border-radius: 15px;
+  background: white;
+}
+
+.input-group {
+  height: 46vh;
+}
+.caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 19px;
+  font-family: Arial, sans-serif;
+}
+.fname {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fname input {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 4 solid blue;
+  border-left: 0px;
+  width: 220px;
+}
+
+.lname {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lname input {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 4 solid blue;
+  border-left: 0px;
+  width: 220px;
+}
+
+.email {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email input {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 4 solid blue;
+  border-left: 0px;
+  width: 220px;
+}
+
+.passwd {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.passwd input {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 4 solid blue;
+  border-left: 0px;
+  width: 220px;
+}
+
+.con-paswd {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-paswd input {
+  border-top: 0px;
+  border-right: 0px;
+  border-bottom: 4 solid blue;
+  border-left: 0px;
+  width: 220px;
+}
+.button-group {
+  height: 7vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button-group input {
+  border: 0px 0px;
+  width: 200px;
+  height: 4vh;
+  background: rgb(97, 12, 99);
+  border-radius: 14px;
+  color: white;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  font-family: Arial, sans-serif;
+}
