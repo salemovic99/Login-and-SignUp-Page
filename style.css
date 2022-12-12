@@ -1,11 +1,16 @@
-body {
+* {
+  margin: 0;
+  padding: 0;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .container {
   float: left;
-  background: rgba(215, 247, 255, 0.884);
-  width: 45%;
+  background: rgba(255, 255, 255, 0.884);
+
+  width: 40%;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -15,21 +20,40 @@ body {
 .pic-container {
   float: right;
   height: 99vh;
-  width: 55%;
-  background-image: url("../../../Icons/17.jpg");
+  width: 59%;
+  background-color: rgba(215, 247, 255, 0.884);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
+.pic-container p span {
+  display: inline-block;
+  margin-top: 180px;
+  margin-left: 180px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  font-size: 4em;
+  font-family: Arial, sans-serif;
+}
+.pic-container h3{
+  font-size: 2.5em;
+  font-weight: 600;
+  font-family:  Arial, sans-serif;
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-left: 180px;
+}
+
 
 form {
   border: 2px solid white;
   border-top: 20px solid white;
   margin-top: 20px;
-  width: 56%;
-  height: 65vh;
-  border-radius: 15px;
+  width: 54%;
+  height: 66vh;
+  border-radius: 11px;
   background: white;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
 }
 
 .input-group {
@@ -40,7 +64,9 @@ form {
   justify-content: center;
   align-items: center;
   font-size: 19px;
+  font-weight: 500;
   font-family: Arial, sans-serif;
+  letter-spacing: 1px;
 }
 .fname {
   height: 7vh;
@@ -55,6 +81,10 @@ form {
   border-bottom: 4 solid blue;
   border-left: 0px;
   width: 220px;
+  transition: 0.7s ease;
+}
+.fname input:hover {
+  transform: scale(1.1);
 }
 
 .lname {
@@ -70,8 +100,11 @@ form {
   border-bottom: 4 solid blue;
   border-left: 0px;
   width: 220px;
+  transition: 0.7s ease;
 }
-
+.lname input:hover {
+  transform: scale(1.1);
+}
 .email {
   height: 7vh;
   display: flex;
@@ -85,8 +118,11 @@ form {
   border-bottom: 4 solid blue;
   border-left: 0px;
   width: 220px;
+  transition: 0.7s ease;
 }
-
+.email input:hover {
+  transform: scale(1.1);
+}
 .passwd {
   height: 7vh;
   display: flex;
@@ -99,6 +135,11 @@ form {
   border-bottom: 4 solid blue;
   border-left: 0px;
   width: 220px;
+  transition: 0.7s ease;
+}
+
+.passwd input:hover {
+  transform: scale(1.1);
 }
 
 .con-paswd {
@@ -114,7 +155,13 @@ form {
   border-bottom: 4 solid blue;
   border-left: 0px;
   width: 220px;
+  transition: 0.7s ease;
 }
+
+.con-paswd input:hover {
+  transform: scale(1.1);
+}
+
 .button-group {
   height: 7vh;
   display: flex;
@@ -122,14 +169,21 @@ form {
   align-items: center;
 }
 .button-group input {
-  border: 0px 0px;
-  width: 200px;
-  height: 4vh;
+  border: 1px solid white;
+  width: 210px;
+  height: 4.5vh;
   background: rgb(97, 12, 99);
-  border-radius: 14px;
+  border-radius: 15px;
   color: white;
   font-size: 15px;
+  font-weight: 500;
   font-family: sans-serif;
+  letter-spacing: 2px;
+  transition: 0.7s ease;
+}
+
+.button-group input:hover {
+  transform: scale(1.1);
 }
 
 .link {
@@ -137,5 +191,9 @@ form {
   justify-content: center;
   align-items: center;
   font-size: 11px;
+  font-family: Arial, sans-serif;
+}
+.link a {
+  text-decoration: none;
   font-family: Arial, sans-serif;
 }
