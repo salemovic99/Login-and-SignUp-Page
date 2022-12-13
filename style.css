@@ -35,15 +35,14 @@
   font-size: 4em;
   font-family: Arial, sans-serif;
 }
-.pic-container h3{
+.pic-container h3 {
   font-size: 2.5em;
   font-weight: 600;
-  font-family:  Arial, sans-serif;
+  font-family: sans-serif;
   letter-spacing: 1px;
   margin-top: 20px;
   margin-left: 180px;
 }
-
 
 form {
   border: 2px solid white;
